@@ -48,6 +48,10 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-thymeleaf</artifactId>
 	</dependency>
+	<dependency>
+        <groupId>io.projectreactor</groupId>
+        <artifactId>reactor-bus</artifactId>
+    </dependency>
   </dependencies>
   <build>
     <finalName>springsecuritydemo</finalName>
